@@ -179,3 +179,33 @@ button:hover{
     transform: scale(1.1);
     cursor: pointer;
 }
+
+/*Envío de resultados*/
+
+.cajaResultados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cajaResultados form{
+    display: flex;
+    flex-direction: column;
+}
+
+.cajaResultados form input{
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background: #9ab7d7;
+    color: #fff;
+    resize: none;
+    border-radius: 20px;
+}
+
+.cajaResultados form input::placeholder{
+    color: #fff;
+    font-style: italic;
+}
