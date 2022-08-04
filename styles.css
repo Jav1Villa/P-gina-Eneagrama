@@ -157,6 +157,13 @@ input[value='value5']:checked:after {
 }
 
 /*Botones*/
+
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 button{
     background: #215a98;
     margin: 20px;
