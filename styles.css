@@ -193,7 +193,7 @@ button:hover{
     flex-direction: column;
 }
 
-.cajaResultados form input{
+.textos{
     margin-bottom: 5px;
     padding: 10px;
     font-size: 15px;
@@ -208,4 +208,22 @@ button:hover{
 .cajaResultados form input::placeholder{
     color: #fff;
     font-style: italic;
+}
+
+.btnEnviar{
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background: #215a98;
+    color: #fff;
+    resize: none;
+    border-radius: 20px;
+    transition: transform .2s;
+}
+
+.btnEnviar:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
