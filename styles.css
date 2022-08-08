@@ -84,6 +84,8 @@ input[type='radio']:after {
     display: inline-block;
     visibility: visible;
     border: 2px solid white;
+    cursor: pointer;
+    transition: background .5s ease
 }
 
 input[value='value1']:checked:after {
@@ -98,6 +100,7 @@ input[value='value1']:checked:after {
     display: inline-block;
     visibility: visible;
     border: 2px solid white;
+    cursor: pointer;
 }
 
 input[value='value2']:checked:after {
@@ -112,6 +115,7 @@ input[value='value2']:checked:after {
     display: inline-block;
     visibility: visible;
     border: 2px solid white;
+    cursor: pointer;
 }
 
 input[value='value3']:checked:after {
@@ -126,6 +130,7 @@ input[value='value3']:checked:after {
     display: inline-block;
     visibility: visible;
     border: 2px solid white;
+    cursor: pointer;
 }
 
 input[value='value4']:checked:after {
@@ -140,6 +145,7 @@ input[value='value4']:checked:after {
     display: inline-block;
     visibility: visible;
     border: 2px solid white;
+    cursor: pointer;
 }
 
 input[value='value5']:checked:after {
@@ -154,6 +160,7 @@ input[value='value5']:checked:after {
     display: inline-block;
     visibility: visible;
     border: 2px solid white;
+    cursor: pointer;
 }
 
 /*Botones*/
