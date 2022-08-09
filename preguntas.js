@@ -1,4 +1,5 @@
 function verificar(){
+    
     let puntosE1 = 0;
     let puntosE2 = 0;
     let puntosE3 = 0;
