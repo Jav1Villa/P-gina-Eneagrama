@@ -33,7 +33,7 @@ body {
 
 .titulo h1, h3{
     height: 20%;
-    color: #000;
+    color: #215a98;
     width: 1000px;
 }
 
@@ -55,7 +55,7 @@ fieldset{
     padding: 5px;
     transition: transform .2s; /* Animation */
     margin: 6px auto;
-    width: 50%;
+    width: 70%;
 }
 
 fieldset:hover{
@@ -88,7 +88,7 @@ input[type='radio']:after {
     transition: background .5s ease
 }
 
-input[value='value1']:checked:after {
+input[value='Muy de acuerdo']:checked:after {
     width: 15px;
     height: 15px;
     border-radius: 15px;
@@ -103,7 +103,7 @@ input[value='value1']:checked:after {
     cursor: pointer;
 }
 
-input[value='value2']:checked:after {
+input[value='Algo de acuerdo']:checked:after {
     width: 15px;
     height: 15px;
     border-radius: 15px;
@@ -118,7 +118,7 @@ input[value='value2']:checked:after {
     cursor: pointer;
 }
 
-input[value='value3']:checked:after {
+input[value='Posiblemente']:checked:after {
     width: 15px;
     height: 15px;
     border-radius: 15px;
@@ -133,7 +133,7 @@ input[value='value3']:checked:after {
     cursor: pointer;
 }
 
-input[value='value4']:checked:after {
+input[value='Poco en desacuerdo']:checked:after {
     width: 15px;
     height: 15px;
     border-radius: 15px;
@@ -148,7 +148,7 @@ input[value='value4']:checked:after {
     cursor: pointer;
 }
 
-input[value='value5']:checked:after {
+input[value='Totalmente en desacuerdo']:checked:after {
     width: 15px;
     height: 15px;
     border-radius: 15px;
