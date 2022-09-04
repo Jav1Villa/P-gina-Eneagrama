@@ -120,4 +120,7 @@ function verificar(){
     document.write(puntosE7);
     document.write(puntosE8);
     document.write(puntosE9);
+
+    
+
 }
