@@ -795,13 +795,64 @@
             </form>
         </center>
     </div>
-    
 
-    
+    <script type="text/javascript">
+        function calcula_resta() {
+            let puntosE1 = 0;
+            let p1 = document.quiz.pregunta1.value;
+            switch (p1) {
+            case "Muy de acuerdo": puntosE1 = puntosE1 + 4;break;
+            case "Algo de acuerdo": puntosE1 = puntosE1 + 3;break;
+            case "Posiblemente": puntosE1 = puntosE1 + 2;break;
+            case "Poco en desacuerdo": puntosE1 = puntosE1 + 1;break;
+            case "Totalmente en desacuerdo": puntosE1 = puntosE1 + 0;break;
+            default:break;
+        }
+        const labels = [
+            'January',
+            'February',
+            'March',
+            'April',
+            'May',
+            'June',
+            ];
+        
+            const data = {
+            labels: labels,
+            datasets: [{
+                label: 'My First dataset',
+                backgroundColor: 'rgb(255, 99, 132)',
+                borderColor: 'rgb(255, 99, 132)',
+                data: [puntosE1, 10, 5, 2, 20, 30, 45],
+            }]
+            };
+        
+            const config = {
+            type: 'bar',
+            data: data,
+            options: {}
+            };
+
+            const myChart = new Chart(
+            document.getElementById('myChart'),
+            config
+            );
+        
+            // var numero2 = document.getElementById("numero2").value;
+            // var resultado = (numero1 - numero2);
+            // document.getElementById('lbResultado').innerHTML = resultado;
+        }
+        </script>
+
         <div class="pie">
             <h4>Página 1</h4>
-            <button onclick="location.href='page2.html';verificar()" style="float: right;">Siguiente</button>
+            <button onclick="verificar()" style="float: right;">Siguiente</button>
         </div>
+
+        <div>
+            <canvas id="myChart"></canvas>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     
 </body>
 </html>

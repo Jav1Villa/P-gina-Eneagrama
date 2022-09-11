@@ -512,16 +512,76 @@ switch (p21) {
         default: break;
     }
 
+    const labels = [
+        'ETipo1',
+        'ETipo2',
+        'ETipo3',
+        'ETipo4',
+        'ETipo5',
+        'ETipo6',
+        'ETipo7',
+        'ETipo8',
+        'ETipo9',
+        ];
+    
+        const data = {
+        labels: labels,
+        datasets: [{
+            label: 'Resultados',
+            backgroundColor: "rgba(159,170,174,0.8)",
+            borderWidth: 1,
+            hoverBackgroundColor: "rgba(232,105,90,0.8)",
+            hoverBorderColor: "orange",
+            data: [puntosE1, puntosE2, puntosE3, puntosE4, puntosE5, puntosE6, puntosE7, puntosE8, puntosE9],
+        }]
+        };
+    
+        const config = {
+        type: 'bar',
+        data: data,
+        options: {
+            legend: {
+                labels: {
+                    fontColor: "blue",
+                    fontSize: 18
+                }
+            },
+            scales: {
+            x: {
+                grid:{
+                    color: '#fff'
+                },
+                ticks: {
+                    color: '#fff'
+                }
+            },
+            y: {
+                grid:{
+                    color: '#fff'
+                },
+                ticks: {
+                    color: '#fff'
+                }
+            }
+        },
+        }
+        };
 
-    document.write(puntosE1);
-    document.write(puntosE2);
-    document.write(puntosE3);
-    document.write(puntosE4);
-    document.write(puntosE5);
-    document.write(puntosE6);
-    document.write(puntosE7);
-    document.write(puntosE8);
-    document.write(puntosE9);
+        const myChart = new Chart(
+        document.getElementById('myChart'),
+        config
+        );
+
+
+    // document.write(puntosE1);
+    // document.write(puntosE2);
+    // document.write(puntosE3);
+    // document.write(puntosE4);
+    // document.write(puntosE5);
+    // document.write(puntosE6);
+    // document.write(puntosE7);
+    // document.write(puntosE8);
+    // document.write(puntosE9);
 
     
 
