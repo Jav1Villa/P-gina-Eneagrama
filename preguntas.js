@@ -535,6 +535,15 @@ switch (p21) {
             data: [puntosE1, puntosE2, puntosE3, puntosE4, puntosE5, puntosE6, puntosE7, puntosE8, puntosE9],
         }]
         };
+
+        const bgColor = {
+            id: 'bgColor',
+            beforeDraw: (chart, options) => {
+                const {ctx, width, height } = chart;
+                ctx.fillRect(0, 0, width, height);
+                ctx.restore();
+            }
+        }
     
         const config = {
         type: 'bar',
@@ -564,11 +573,32 @@ switch (p21) {
                 }
             }
         },
-        }
+        },
         };
 
         const myChart = new Chart(
         document.getElementById('myChart'),
         config
         );
+
+        window.pdf = window.pdf.pdf;
+
+        const exportChart = (id, dimensions) => {
+        const chartEl = document.getElementById(id);
+        const image = chartEl.toDataURL('image/png', 1.0);
+
+        const pdf = new pdf('landscape');
+        pdf.addImage(image, 'PNG', ...dimensions);
+        pdf.save('chart.pdf');
+        }
+}
+
+function downloadPDF(){
+    const pdfChart = document.getElementById('myChart');
+    const pdfChartImage = pdfChart.toDataURL('image/jpeg',1.0);
+    let pdf = new jsPDF('landscape');
+    pdf.setFontSize(20);
+    pdf.addImage(pdfChartImage, 'JPEG', 15, 15, 280, 150);
+    pdf.text(10, 10, "Tus resultados:")
+    pdf.save('misGraficas.pdf');
 }

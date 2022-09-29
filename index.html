@@ -846,13 +846,17 @@
 
         <div class="pie">
             <h4>Página 1</h4>
-            <button onclick="verificar()" style="float: right;">Siguiente</button>
+            <button onclick="verificar();exportChart('bar-chart', [15, 15, 270, 170])" style="float: right;">Siguiente</button>
         </div>
 
         <div>
             <canvas id="myChart"></canvas>
+            <button onclick="downloadPDF()">Descargar PDF</button>
         </div>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.16.105/pdf.min.js" integrity="sha512-tqaIiFJopq4lTBmFlWF0MNzzTpDsHyug8tJaaY0VkcH5AR2ANMJlcD+3fIL+RQ4JU3K6edt9OoySKfCCyKgkng==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.debug.js"></script>
+        
     
 </body>
 </html>
