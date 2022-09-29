@@ -161,7 +161,7 @@ function verificar(){
         default: break;
     }
 
-     switch (p12) {
+    switch (p12) {
         case "Muy de acuerdo": puntosE3 = puntosE3 + 4;break;
         case "Algo de acuerdo": puntosE3 = puntosE3 + 3;break;
         case "Posiblemente": puntosE3 = puntosE3 + 2;break;
@@ -314,7 +314,7 @@ switch (p21) {
         default: break;
     }
 
-     switch (p29) {
+    switch (p29) {
         case "Muy de acuerdo": puntosE1 = puntosE1 + 4; break;
         case "Algo de acuerdo": puntosE1 = puntosE1 + 3; break;
         case "Posiblemente": puntosE1 = puntosE1 + 2; break;
@@ -404,7 +404,7 @@ switch (p21) {
         default: break;
     }
 
-     switch (p39) {
+    switch (p39) {
         case "Muy de acuerdo": puntosE1 = puntosE1 + 4; break;
         case "Algo de acuerdo": puntosE1 = puntosE1 + 3; break;
         case "Posiblemente": puntosE1 = puntosE1 + 2; break;
@@ -494,7 +494,7 @@ switch (p21) {
         default: break;
     }
 
-     switch (p49) {
+    switch (p49) {
         case "Muy de acuerdo": puntosE1 = puntosE1 + 4; break;
         case "Algo de acuerdo": puntosE1 = puntosE1 + 3; break;
         case "Posiblemente": puntosE1 = puntosE1 + 2; break;
@@ -571,18 +571,4 @@ switch (p21) {
         document.getElementById('myChart'),
         config
         );
-
-
-    // document.write(puntosE1);
-    // document.write(puntosE2);
-    // document.write(puntosE3);
-    // document.write(puntosE4);
-    // document.write(puntosE5);
-    // document.write(puntosE6);
-    // document.write(puntosE7);
-    // document.write(puntosE8);
-    // document.write(puntosE9);
-
-    
-
 }
