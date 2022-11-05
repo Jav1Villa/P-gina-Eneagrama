@@ -527,11 +527,8 @@ switch (p21) {
         const data = {
         labels: labels,
         datasets: [{
-            label: 'Resultados',
-            backgroundColor: "rgba(159,170,174,0.8)",
+            backgroundColor: ["lightgreen", "red", "red", "red", "blue", "blue", "blue", "lightgreen", "lightgreen"],
             borderWidth: 1,
-            hoverBackgroundColor: "rgba(232,105,90,0.8)",
-            hoverBorderColor: "orange",
             data: [puntosE1, puntosE2, puntosE3, puntosE4, puntosE5, puntosE6, puntosE7, puntosE8, puntosE9],
         }]
         };
@@ -549,10 +546,9 @@ switch (p21) {
         type: 'bar',
         data: data,
         options: {
-            legend: {
-                labels: {
-                    fontColor: "blue",
-                    fontSize: 18
+            plugins: {
+                legend: {
+                    display: false,
                 }
             },
             scales: {
@@ -598,7 +594,9 @@ function downloadPDF(){
     const pdfChartImage = pdfChart.toDataURL('image/jpeg',1.0);
     let pdf = new jsPDF('landscape');
     pdf.setFontSize(20);
-    pdf.addImage(pdfChartImage, 'JPEG', 15, 15, 280, 150);
+    pdf.addImage(pdfChartImage, 'JPEG', 10, 15, 280, 150);
     pdf.text(10, 10, "Tus resultados:")
+    pdf.setFontSize(15);
+    pdf.text(10, 180, "Saliste muy alto en E1, significa: ...")
     pdf.save('misGraficas.pdf');
 }
