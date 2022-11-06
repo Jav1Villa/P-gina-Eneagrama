@@ -60,6 +60,27 @@ function verificar(){
     let p48 = document.quiz.pregunta48.value;
     let p49 = document.quiz.pregunta49.value;
     let p50 = document.quiz.pregunta50.value;
+    let p51 = document.quiz.pregunta51.value;
+    let p52 = document.quiz.pregunta52.value;
+    let p53 = document.quiz.pregunta53.value;
+    let p54 = document.quiz.pregunta54.value;
+    let p55 = document.quiz.pregunta55.value;
+    let p56 = document.quiz.pregunta56.value;
+    let p57 = document.quiz.pregunta57.value;
+    let p58 = document.quiz.pregunta58.value;
+    let p59 = document.quiz.pregunta59.value;
+    let p60 = document.quiz.pregunta60.value;
+    let p61 = document.quiz.pregunta61.value;
+    let p62 = document.quiz.pregunta62.value;
+    let p63 = document.quiz.pregunta63.value;
+    let p64 = document.quiz.pregunta64.value;
+    let p65 = document.quiz.pregunta65.value;
+    let p66 = document.quiz.pregunta66.value;
+    let p67 = document.quiz.pregunta67.value;
+    let p68 = document.quiz.pregunta68.value;
+    let p69 = document.quiz.pregunta69.value;
+    let p70 = document.quiz.pregunta70.value;
+
 
 
     switch (p1) {
@@ -315,42 +336,33 @@ switch (p21) {
     }
 
      switch (p29) {
-        case "Muy de acuerdo": puntosE1 = puntosE1 + 4; break;
-        case "Algo de acuerdo": puntosE1 = puntosE1 + 3; break;
-        case "Posiblemente": puntosE1 = puntosE1 + 2; break;
-        case "Poco en desacuerdo": puntosE1 = puntosE1 + 1; break;
-        case "Totalmente en desacuerdo": puntosE1 = puntosE1 + 0; break;
+       case "Muy de acuerdo": puntosE2 = puntosE2 + 4; break;
+        case "Algo de acuerdo": puntosE2 = puntosE2 + 3; break;
+        case "Posiblemente": puntosE2 = puntosE2 + 2; break;
+        case "Poco en desacuerdo": puntosE2 = puntosE2 + 1; break;
+        case "Totalmente en desacuerdo": puntosE2 = puntosE2 + 0; break;
         default: break;
     }
 
     switch (p30) {
-        case "Muy de acuerdo": puntosE2 = puntosE2 + 4; break;
-        case "Algo de acuerdo": puntosE2 = puntosE2 + 3; break;
-        case "Posiblemente": puntosE2 = puntosE2 + 2; break;
-        case "Poco en desacuerdo": puntosE2 = puntosE2 + 1; break;
-        case "Totalmente en desacuerdo": puntosE2 = puntosE2 + 0; break;
-        default: break;
-    }
-
-    switch (p31) {
         case "Muy de acuerdo": puntosE3 = puntosE3 + 4;break;
         case "Algo de acuerdo": puntosE3 = puntosE3 + 3;break;
         case "Posiblemente": puntosE3 = puntosE3 + 2;break;
         case "Poco en desacuerdo": puntosE3 = puntosE3 + 1;break;
         case "Totalmente en desacuerdo": puntosE3 = puntosE3 + 0;break;
+        default:break;
+    }
+
+    switch (p31) {
+       case "Muy de acuerdo": puntosE4 = puntosE4 + 4;break;
+        case "Algo de acuerdo": puntosE4 = puntosE4 + 3;break;
+        case "Posiblemente": puntosE4 = puntosE4 + 2;break;
+        case "Poco en desacuerdo": puntosE4 = puntosE4 + 1;break;
+        case "Totalmente en desacuerdo": puntosE4 = puntosE4 + 0;break;
         default:break;
     }
 
     switch (p32) {
-        case "Muy de acuerdo": puntosE4 = puntosE4 + 4;break;
-        case "Algo de acuerdo": puntosE4 = puntosE4 + 3;break;
-        case "Posiblemente": puntosE4 = puntosE4 + 2;break;
-        case "Poco en desacuerdo": puntosE4 = puntosE4 + 1;break;
-        case "Totalmente en desacuerdo": puntosE4 = puntosE4 + 0;break;
-        default:break;
-    }
-
-    switch (p33) {
         case "Muy de acuerdo": puntosE5 = puntosE5 + 4;break;
         case "Algo de acuerdo": puntosE5 = puntosE5 + 3;break;
         case "Posiblemente": puntosE5 = puntosE5 + 2;break;
@@ -359,7 +371,7 @@ switch (p21) {
         default:break;
     }
 
-    switch (p34) {
+    switch (p33) {
         case "Muy de acuerdo": puntosE6 = puntosE6 + 4;break;
         case "Algo de acuerdo": puntosE6 = puntosE6 + 3;break;
         case "Posiblemente": puntosE6 = puntosE6 + 2;break;
@@ -368,7 +380,7 @@ switch (p21) {
         default:break;
     }
 
-    switch (p35) {
+    switch (p34) {
         case "Muy de acuerdo": puntosE7 = puntosE7 + 4;break;
         case "Algo de acuerdo": puntosE7 = puntosE7 + 3;break;
         case "Posiblemente": puntosE7 = puntosE7 + 2;break;
@@ -377,8 +389,8 @@ switch (p21) {
         default:break;
     }
 
-    switch (p36) {
-        case "Muy de acuerdo": puntosE8 = puntosE8 + 4;break;
+    switch (p35) {
+         case "Muy de acuerdo": puntosE8 = puntosE8 + 4;break;
         case "Algo de acuerdo": puntosE8 = puntosE8 + 3;break;
         case "Posiblemente": puntosE8 = puntosE8 + 2;break;
         case "Poco en desacuerdo": puntosE8 = puntosE8 + 1;break;
@@ -386,8 +398,8 @@ switch (p21) {
         default:break;
     }
 
-    switch (p37) {
-        case "Muy de acuerdo": puntosE9 = puntosE9 + 4;break;
+    switch (p36) {
+         case "Muy de acuerdo": puntosE9 = puntosE9 + 4;break;
         case "Algo de acuerdo": puntosE9 = puntosE9 + 3;break;
         case "Posiblemente": puntosE9 = puntosE9 + 2;break;
         case "Poco en desacuerdo": puntosE9 = puntosE9 + 1;break;
@@ -395,26 +407,17 @@ switch (p21) {
         default:break;
     }
 
+    switch (p37) {
+         case "Muy de acuerdo": puntosE1 = puntosE1 + 4; break;
+        case "Algo de acuerdo": puntosE1 = puntosE1 + 3; break;
+        case "Posiblemente": puntosE1 = puntosE1 + 2; break;
+        case "Poco en desacuerdo": puntosE1 = puntosE1 + 1; break;
+        case "Totalmente en desacuerdo": puntosE1 = puntosE1 + 0; break;
+        default: break;
+    }
+
     switch (p38) {
-        case "Muy de acuerdo": puntosE1 = puntosE1 + 4; break;
-        case "Algo de acuerdo": puntosE1 = puntosE1 + 3; break;
-        case "Posiblemente": puntosE1 = puntosE1 + 2; break;
-        case "Poco en desacuerdo": puntosE1 = puntosE1 + 1; break;
-        case "Totalmente en desacuerdo": puntosE1 = puntosE1 + 0; break;
-        default: break;
-    }
-
-     switch (p39) {
-        case "Muy de acuerdo": puntosE1 = puntosE1 + 4; break;
-        case "Algo de acuerdo": puntosE1 = puntosE1 + 3; break;
-        case "Posiblemente": puntosE1 = puntosE1 + 2; break;
-        case "Poco en desacuerdo": puntosE1 = puntosE1 + 1; break;
-        case "Totalmente en desacuerdo": puntosE1 = puntosE1 + 0; break;
-        default: break;
-    }
-
-    switch (p40) {
-        case "Muy de acuerdo": puntosE2 = puntosE2 + 4; break;
+         case "Muy de acuerdo": puntosE2 = puntosE2 + 4; break;
         case "Algo de acuerdo": puntosE2 = puntosE2 + 3; break;
         case "Posiblemente": puntosE2 = puntosE2 + 2; break;
         case "Poco en desacuerdo": puntosE2 = puntosE2 + 1; break;
@@ -422,7 +425,177 @@ switch (p21) {
         default: break;
     }
 
+     switch (p39) {
+        case "Muy de acuerdo": puntosE3 = puntosE3 + 4;break;
+        case "Algo de acuerdo": puntosE3 = puntosE3 + 3;break;
+        case "Posiblemente": puntosE3 = puntosE3 + 2;break;
+        case "Poco en desacuerdo": puntosE3 = puntosE3 + 1;break;
+        case "Totalmente en desacuerdo": puntosE3 = puntosE3 + 0;break;
+        default:break;
+        
+    }
+
+    switch (p40) {
+        case "Muy de acuerdo": puntosE4 = puntosE4 + 4;break;
+        case "Algo de acuerdo": puntosE4 = puntosE4 + 3;break;
+        case "Posiblemente": puntosE4 = puntosE4 + 2;break;
+        case "Poco en desacuerdo": puntosE4 = puntosE4 + 1;break;
+        case "Totalmente en desacuerdo": puntosE4 = puntosE4 + 0;break;
+        default:break;
+        
+    }
+
     switch (p41) {
+         case "Muy de acuerdo": puntosE5 = puntosE5 + 4;break;
+        case "Algo de acuerdo": puntosE5 = puntosE5 + 3;break;
+        case "Posiblemente": puntosE5 = puntosE5 + 2;break;
+        case "Poco en desacuerdo": puntosE5 = puntosE5 + 1;break;
+        case "Totalmente en desacuerdo": puntosE5 = puntosE5 + 0;break;
+        default:break;
+        
+    }
+
+    switch (p42) {
+        case "Muy de acuerdo": puntosE6 = puntosE6 + 4;break;
+        case "Algo de acuerdo": puntosE6 = puntosE6 + 3;break;
+        case "Posiblemente": puntosE6 = puntosE6 + 2;break;
+        case "Poco en desacuerdo": puntosE6 = puntosE6 + 1;break;
+        case "Totalmente en desacuerdo": puntosE6 = puntosE6 + 0;break;
+        default:break;
+        
+    }
+
+    switch (p43) {
+        case "Muy de acuerdo": puntosE7 = puntosE7 + 4;break;
+        case "Algo de acuerdo": puntosE7 = puntosE7 + 3;break;
+        case "Posiblemente": puntosE7 = puntosE7 + 2;break;
+        case "Poco en desacuerdo": puntosE7 = puntosE7 + 1;break;
+        case "Totalmente en desacuerdo": puntosE7 = puntosE7 + 0;break;
+        default:break;
+       
+    }
+
+    switch (p44) {
+         case "Muy de acuerdo": puntosE8 = puntosE8 + 4;break;
+        case "Algo de acuerdo": puntosE8 = puntosE8 + 3;break;
+        case "Posiblemente": puntosE8 = puntosE8 + 2;break;
+        case "Poco en desacuerdo": puntosE8 = puntosE8 + 1;break;
+        case "Totalmente en desacuerdo": puntosE8 = puntosE8 + 0;break;
+        default:break;
+        
+    }
+
+    switch (p45) {
+       case "Muy de acuerdo": puntosE9 = puntosE9 + 4;break;
+        case "Algo de acuerdo": puntosE9 = puntosE9 + 3;break;
+        case "Posiblemente": puntosE9 = puntosE9 + 2;break;
+        case "Poco en desacuerdo": puntosE9 = puntosE9 + 1;break;
+        case "Totalmente en desacuerdo": puntosE9 = puntosE9 + 0;break;
+        default:break;
+    }
+
+    switch (p46) {
+       case "Muy de acuerdo": puntosE1 = puntosE1 + 4; break;
+        case "Algo de acuerdo": puntosE1 = puntosE1 + 3; break;
+        case "Posiblemente": puntosE1 = puntosE1 + 2; break;
+        case "Poco en desacuerdo": puntosE1 = puntosE1 + 1; break;
+        case "Totalmente en desacuerdo": puntosE1 = puntosE1 + 0; break;
+        default: break;
+    }
+
+    switch (p47) {
+        case "Muy de acuerdo": puntosE2 = puntosE2 + 4; break;
+        case "Algo de acuerdo": puntosE2 = puntosE2 + 3; break;
+        case "Posiblemente": puntosE2 = puntosE2 + 2; break;
+        case "Poco en desacuerdo": puntosE2 = puntosE2 + 1; break;
+        case "Totalmente en desacuerdo": puntosE2 = puntosE2 + 0; break;
+        default: break;
+        
+    }
+
+    switch (p48) {
+         case "Muy de acuerdo": puntosE3 = puntosE3 + 4;break;
+        case "Algo de acuerdo": puntosE3 = puntosE3 + 3;break;
+        case "Posiblemente": puntosE3 = puntosE3 + 2;break;
+        case "Poco en desacuerdo": puntosE3 = puntosE3 + 1;break;
+        case "Totalmente en desacuerdo": puntosE3 = puntosE3 + 0;break;
+        default:break;
+    }
+
+     switch (p49) {
+        case "Muy de acuerdo": puntosE4 = puntosE4 + 4;break;
+        case "Algo de acuerdo": puntosE4 = puntosE4 + 3;break;
+        case "Posiblemente": puntosE4 = puntosE4 + 2;break;
+        case "Poco en desacuerdo": puntosE4 = puntosE4 + 1;break;
+        case "Totalmente en desacuerdo": puntosE4 = puntosE4 + 0;break;
+        default:break;
+    }
+
+    switch (p50) {
+       case "Muy de acuerdo": puntosE5 = puntosE5 + 4;break;
+        case "Algo de acuerdo": puntosE5 = puntosE5 + 3;break;
+        case "Posiblemente": puntosE5 = puntosE5 + 2;break;
+        case "Poco en desacuerdo": puntosE5 = puntosE5 + 1;break;
+        case "Totalmente en desacuerdo": puntosE5 = puntosE5 + 0;break;
+        default:break;
+    }
+
+    switch (p51) {
+        case "Muy de acuerdo": puntosE6 = puntosE6 + 4;break;
+        case "Algo de acuerdo": puntosE6 = puntosE6 + 3;break;
+        case "Posiblemente": puntosE6 = puntosE6 + 2;break;
+        case "Poco en desacuerdo": puntosE6 = puntosE6 + 1;break;
+        case "Totalmente en desacuerdo": puntosE6 = puntosE6 + 0;break;
+        default:break;
+    }
+
+    switch (p52) {
+         case "Muy de acuerdo": puntosE7 = puntosE7 + 4;break;
+        case "Algo de acuerdo": puntosE7 = puntosE7 + 3;break;
+        case "Posiblemente": puntosE7 = puntosE7 + 2;break;
+        case "Poco en desacuerdo": puntosE7 = puntosE7 + 1;break;
+        case "Totalmente en desacuerdo": puntosE7 = puntosE7 + 0;break;
+        default:break;
+    }
+
+    switch (p53) {
+         case "Muy de acuerdo": puntosE8 = puntosE8 + 4;break;
+        case "Algo de acuerdo": puntosE8 = puntosE8 + 3;break;
+        case "Posiblemente": puntosE8 = puntosE8 + 2;break;
+        case "Poco en desacuerdo": puntosE8 = puntosE8 + 1;break;
+        case "Totalmente en desacuerdo": puntosE8 = puntosE8 + 0;break;
+        default:break;
+    }
+
+    switch (p54) {
+       case "Muy de acuerdo": puntosE9 = puntosE9 + 4;break;
+        case "Algo de acuerdo": puntosE9 = puntosE9 + 3;break;
+        case "Posiblemente": puntosE9 = puntosE9 + 2;break;
+        case "Poco en desacuerdo": puntosE9 = puntosE9 + 1;break;
+        case "Totalmente en desacuerdo": puntosE9 = puntosE9 + 0;break;
+        default:break;
+    }
+
+    switch (p55) {
+        case "Muy de acuerdo": puntosE1 = puntosE1 + 4; break;
+        case "Algo de acuerdo": puntosE1 = puntosE1 + 3; break;
+        case "Posiblemente": puntosE1 = puntosE1 + 2; break;
+        case "Poco en desacuerdo": puntosE1 = puntosE1 + 1; break;
+        case "Totalmente en desacuerdo": puntosE1 = puntosE1 + 0; break;
+        default: break;
+    }
+
+    switch (p56) {
+         case "Muy de acuerdo": puntosE2 = puntosE2 + 4; break;
+        case "Algo de acuerdo": puntosE2 = puntosE2 + 3; break;
+        case "Posiblemente": puntosE2 = puntosE2 + 2; break;
+        case "Poco en desacuerdo": puntosE2 = puntosE2 + 1; break;
+        case "Totalmente en desacuerdo": puntosE2 = puntosE2 + 0; break;
+        default: break;
+       
+    }
+
+    switch (p57) {
         case "Muy de acuerdo": puntosE3 = puntosE3 + 4;break;
         case "Algo de acuerdo": puntosE3 = puntosE3 + 3;break;
         case "Posiblemente": puntosE3 = puntosE3 + 2;break;
@@ -431,8 +604,8 @@ switch (p21) {
         default:break;
     }
 
-    switch (p42) {
-        case "Muy de acuerdo": puntosE4 = puntosE4 + 4;break;
+    switch (p58) {
+         case "Muy de acuerdo": puntosE4 = puntosE4 + 4;break;
         case "Algo de acuerdo": puntosE4 = puntosE4 + 3;break;
         case "Posiblemente": puntosE4 = puntosE4 + 2;break;
         case "Poco en desacuerdo": puntosE4 = puntosE4 + 1;break;
@@ -440,16 +613,17 @@ switch (p21) {
         default:break;
     }
 
-    switch (p43) {
-        case "Muy de acuerdo": puntosE5 = puntosE5 + 4;break;
+     switch (p59) {
+         case "Muy de acuerdo": puntosE5 = puntosE5 + 4;break;
         case "Algo de acuerdo": puntosE5 = puntosE5 + 3;break;
         case "Posiblemente": puntosE5 = puntosE5 + 2;break;
         case "Poco en desacuerdo": puntosE5 = puntosE5 + 1;break;
         case "Totalmente en desacuerdo": puntosE5 = puntosE5 + 0;break;
         default:break;
     }
+       
 
-    switch (p44) {
+    switch (p60) {
         case "Muy de acuerdo": puntosE6 = puntosE6 + 4;break;
         case "Algo de acuerdo": puntosE6 = puntosE6 + 3;break;
         case "Posiblemente": puntosE6 = puntosE6 + 2;break;
@@ -458,7 +632,88 @@ switch (p21) {
         default:break;
     }
 
-    switch (p45) {
+     switch (p61) {
+       case "Muy de acuerdo": puntosE7 = puntosE7 + 4;break;
+        case "Algo de acuerdo": puntosE7 = puntosE7 + 3;break;
+        case "Posiblemente": puntosE7 = puntosE7 + 2;break;
+        case "Poco en desacuerdo": puntosE7 = puntosE7 + 1;break;
+        case "Totalmente en desacuerdo": puntosE7 = puntosE7 + 0;break;
+        default:break;
+    }
+
+    switch (p62) {
+       case "Muy de acuerdo": puntosE8 = puntosE8 + 4;break;
+        case "Algo de acuerdo": puntosE8 = puntosE8 + 3;break;
+        case "Posiblemente": puntosE8 = puntosE8 + 2;break;
+        case "Poco en desacuerdo": puntosE8 = puntosE8 + 1;break;
+        case "Totalmente en desacuerdo": puntosE8 = puntosE8 + 0;break;
+        default:break;
+    }
+
+    switch (p63) {
+       case "Muy de acuerdo": puntosE9 = puntosE9 + 4;break;
+        case "Algo de acuerdo": puntosE9 = puntosE9 + 3;break;
+        case "Posiblemente": puntosE9 = puntosE9 + 2;break;
+        case "Poco en desacuerdo": puntosE9 = puntosE9 + 1;break;
+        case "Totalmente en desacuerdo": puntosE9 = puntosE9 + 0;break;
+        default:break;
+    }
+
+    switch (p64) {
+         case "Muy de acuerdo": puntosE1 = puntosE1 + 4; break;
+        case "Algo de acuerdo": puntosE1 = puntosE1 + 3; break;
+        case "Posiblemente": puntosE1 = puntosE1 + 2; break;
+        case "Poco en desacuerdo": puntosE1 = puntosE1 + 1; break;
+        case "Totalmente en desacuerdo": puntosE1 = puntosE1 + 0; break;
+        default: break;
+    }
+
+    switch (p65) {
+      case "Muy de acuerdo": puntosE2 = puntosE2 + 4; break;
+        case "Algo de acuerdo": puntosE2 = puntosE2 + 3; break;
+        case "Posiblemente": puntosE2 = puntosE2 + 2; break;
+        case "Poco en desacuerdo": puntosE2 = puntosE2 + 1; break;
+        case "Totalmente en desacuerdo": puntosE2 = puntosE2 + 0; break;
+        default: break;
+    }
+
+    switch (p66) {
+        case "Muy de acuerdo": puntosE3 = puntosE3 + 4;break;
+        case "Algo de acuerdo": puntosE3 = puntosE3 + 3;break;
+        case "Posiblemente": puntosE3 = puntosE3 + 2;break;
+        case "Poco en desacuerdo": puntosE3 = puntosE3 + 1;break;
+        case "Totalmente en desacuerdo": puntosE3 = puntosE3 + 0;break;
+        default:break;
+    }
+
+    switch (p67) {
+        case "Muy de acuerdo": puntosE4 = puntosE4 + 4;break;
+        case "Algo de acuerdo": puntosE4 = puntosE4 + 3;break;
+        case "Posiblemente": puntosE4 = puntosE4 + 2;break;
+        case "Poco en desacuerdo": puntosE4 = puntosE4 + 1;break;
+        case "Totalmente en desacuerdo": puntosE4 = puntosE4 + 0;break;
+        default:break;
+    }
+
+    switch (p68) {
+       case "Muy de acuerdo": puntosE5 = puntosE5 + 4;break;
+        case "Algo de acuerdo": puntosE5 = puntosE5 + 3;break;
+        case "Posiblemente": puntosE5 = puntosE5 + 2;break;
+        case "Poco en desacuerdo": puntosE5 = puntosE5 + 1;break;
+        case "Totalmente en desacuerdo": puntosE5 = puntosE5 + 0;break;
+        default:break;
+    }
+
+     switch (p69) {
+       case "Muy de acuerdo": puntosE6 = puntosE6 + 4;break;
+        case "Algo de acuerdo": puntosE6 = puntosE6 + 3;break;
+        case "Posiblemente": puntosE6 = puntosE6 + 2;break;
+        case "Poco en desacuerdo": puntosE6 = puntosE6 + 1;break;
+        case "Totalmente en desacuerdo": puntosE6 = puntosE6 + 0;break;
+        default:break;
+    }
+
+    switch (p70) {
         case "Muy de acuerdo": puntosE7 = puntosE7 + 4;break;
         case "Algo de acuerdo": puntosE7 = puntosE7 + 3;break;
         case "Posiblemente": puntosE7 = puntosE7 + 2;break;
@@ -467,51 +722,7 @@ switch (p21) {
         default:break;
     }
 
-    switch (p46) {
-        case "Muy de acuerdo": puntosE8 = puntosE8 + 4;break;
-        case "Algo de acuerdo": puntosE8 = puntosE8 + 3;break;
-        case "Posiblemente": puntosE8 = puntosE8 + 2;break;
-        case "Poco en desacuerdo": puntosE8 = puntosE8 + 1;break;
-        case "Totalmente en desacuerdo": puntosE8 = puntosE8 + 0;break;
-        default:break;
-    }
-
-    switch (p47) {
-        case "Muy de acuerdo": puntosE9 = puntosE9 + 4;break;
-        case "Algo de acuerdo": puntosE9 = puntosE9 + 3;break;
-        case "Posiblemente": puntosE9 = puntosE9 + 2;break;
-        case "Poco en desacuerdo": puntosE9 = puntosE9 + 1;break;
-        case "Totalmente en desacuerdo": puntosE9 = puntosE9 + 0;break;
-        default:break;
-    }
-
-    switch (p48) {
-        case "Muy de acuerdo": puntosE1 = puntosE1 + 4; break;
-        case "Algo de acuerdo": puntosE1 = puntosE1 + 3; break;
-        case "Posiblemente": puntosE1 = puntosE1 + 2; break;
-        case "Poco en desacuerdo": puntosE1 = puntosE1 + 1; break;
-        case "Totalmente en desacuerdo": puntosE1 = puntosE1 + 0; break;
-        default: break;
-    }
-
-     switch (p49) {
-        case "Muy de acuerdo": puntosE1 = puntosE1 + 4; break;
-        case "Algo de acuerdo": puntosE1 = puntosE1 + 3; break;
-        case "Posiblemente": puntosE1 = puntosE1 + 2; break;
-        case "Poco en desacuerdo": puntosE1 = puntosE1 + 1; break;
-        case "Totalmente en desacuerdo": puntosE1 = puntosE1 + 0; break;
-        default: break;
-    }
-
-    switch (p50) {
-        case "Muy de acuerdo": puntosE2 = puntosE2 + 4; break;
-        case "Algo de acuerdo": puntosE2 = puntosE2 + 3; break;
-        case "Posiblemente": puntosE2 = puntosE2 + 2; break;
-        case "Poco en desacuerdo": puntosE2 = puntosE2 + 1; break;
-        case "Totalmente en desacuerdo": puntosE2 = puntosE2 + 0; break;
-        default: break;
-    }
-
+    
 
     document.write(puntosE1);
     document.write(puntosE2);
