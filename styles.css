@@ -243,3 +243,19 @@ button:hover{
     cursor: none;
     width: 0%;
 }
+
+/*Custom alert*/
+
+.swal-modal {
+    background-color: #9ab7d7;
+    border: 3px solid #9ab7d7;
+}
+
+.swal-button {
+    padding: 7px 19px;
+    border-radius: 20px;
+    background-color: #215a98;
+    font-size: 12px;
+    border: 1px solid #215a98;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}

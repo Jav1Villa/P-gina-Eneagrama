@@ -1372,7 +1372,7 @@ switch (p134) {
     var myForm = document.forms["quiz"];
     for(var i = 1; i<=135;i++){
         if(myForm["pregunta" + i].value === null || myForm["pregunta" + i].value === ''){
-            alert('Por favor llene la pregunta '+ i );
+            swal('No se llenaron todas las preguntas','Por favor llene la pregunta '+ i, 'warning');
             return false;
         }
     }
