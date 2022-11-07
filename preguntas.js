@@ -1452,7 +1452,7 @@ function downloadPDF(){
     pdf.setFontSize(20);
     pdf.addImage(pdfChartImage, 'JPEG', 10, 15, 280, 150);
     pdf.text(10, 10, "Tus resultados:")
-    pdf.setFontSize(15);
-    pdf.text(10, 180, "Saliste muy alto en E1, significa: ...")
+    // pdf.setFontSize(15);
+    // pdf.text(10, 180, "Saliste muy alto en E1, significa: ...")
     pdf.save('misGraficas.pdf');
 }

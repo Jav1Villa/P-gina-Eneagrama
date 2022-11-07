@@ -218,7 +218,6 @@ button:hover{
 }
 
 .btnEnviar{
-    margin-bottom: 5px;
     padding: 10px;
     font-size: 15px;
     border: none;
@@ -228,9 +227,19 @@ button:hover{
     resize: none;
     border-radius: 20px;
     transition: transform .2s;
+    display: block;
+    width: fit-content;
+    padding-bottom: 20px;
 }
 
 .btnEnviar:hover{
     transform: scale(1.1);
     cursor: pointer;
+}
+
+.btnTrans{
+    background: transparent;
+    color: #fff;
+    cursor: none;
+    width: 0%;
 }
