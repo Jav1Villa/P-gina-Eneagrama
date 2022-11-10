@@ -261,7 +261,7 @@ button:hover{
 }
 
 /*Responsive*/
-@media (max-width: 991px){
+@media (max-width: 992px){
 
     body {
         background: linear-gradient(-45deg, #646569, #588bbd);
@@ -312,7 +312,7 @@ button:hover{
         border: transparent;
         padding: 10px;
         transition: transform .2s; /* Animation */
-        width: 90%;
+        width: 80%;
         height: 280px;
     }
 
