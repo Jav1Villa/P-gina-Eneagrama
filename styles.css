@@ -8,7 +8,7 @@
 /*Fondo*/
 body {
 	background: linear-gradient(-45deg, #646569, #588bbd);
-	background-size: 400% 400%;
+	background-size: 8000% 8000%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
 }
@@ -258,4 +258,51 @@ button:hover{
     font-size: 12px;
     border: 1px solid #215a98;
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+
+/*Responsive*/
+@media (max-width: 991px){
+
+    body {
+        background: linear-gradient(-45deg, #646569, #588bbd);
+        background-size: 8000% 8000%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+    }
+
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+    .titulo {
+        background: #fff;
+        font-size: 7.5px;
+        height: 8%;
+    }
+
+    .titulo h1, h3{
+        height: 15%;
+        color: #215a98;
+        width: 150px;
+    }
+
+    .logo {
+        width: 90px;
+        height: 90px;
+    }
+    
+    #divTitulo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
 }
