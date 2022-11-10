@@ -312,10 +312,8 @@ button:hover{
         border: transparent;
         padding: 10px;
         transition: transform .2s; /* Animation */
-        width: 70%;
+        width: 90%;
         height: 280px;
-        margin-left: 5%;
-        margin-bottom: 20px;
     }
 
     fieldset:hover{
@@ -520,8 +518,7 @@ button:hover{
     .swal-modal {
         background-color: #9ab7d7;
         border: 3px solid #9ab7d7;
-        width: 70%;
-        margin-right: 15%;
+        width: 90%;
     }
 
     .swal-button {
