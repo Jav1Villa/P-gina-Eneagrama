@@ -261,7 +261,7 @@ button:hover{
 }
 
 /*Responsive*/
-@media (max-width: 991px){
+@media (max-width: 2532px){
 
     body {
         background: linear-gradient(-45deg, #646569, #588bbd);
