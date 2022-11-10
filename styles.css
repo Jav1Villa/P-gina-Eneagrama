@@ -295,7 +295,7 @@ button:hover{
     }
 
     .logo {
-        width: 90px;
+        width: 120px;
         height: 90px;
     }
     
@@ -303,6 +303,234 @@ button:hover{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
+        margin-bottom: 20px;
+    }
+
+    /*Preguntas*/
+    fieldset{
+        border-radius: 25px;
+        border: transparent;
+        padding: 10px;
+        transition: transform .2s; /* Animation */
+        width: 70%;
+        height: 280px;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+
+    fieldset:hover{
+        border-radius: 10px;
+        transform: scale(1.1);
+    }
+
+    fieldset input{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-top: 21px;
+        margin-bottom: -20px;
+        margin-left: -270px;
+        margin-right: 10px;
+    }
+
+    .impar{
+        background: #9ab7d7;
+    }
+
+    .par{
+        background: #215a98;
+    }
+
+    /*Colores y posiciones de radiobuttons*/
+
+    input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+        cursor: pointer;
+        transition: background .5s ease
+    }
+
+    input[value='Muy de acuerdo']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #00ff00;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+
+    input[value='Algo de acuerdo']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #069b06;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+
+    input[value='Posiblemente']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #5e5f5e;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+
+    input[value='Poco en desacuerdo']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #ff7700;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+
+    input[value='Totalmente en desacuerdo']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #ff0000;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+        cursor: pointer;
+    }
+
+    /*Botones*/
+
+    .pie{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    button{
+        background: #215a98;
+        margin: 20px;
+        font-size: 15px;
+        border-radius: 15px;
+        border: transparent;
+        width: 95px;
+        height: 35px;
+        transition: transform .2s;
+    }
+
+    button:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    /*Envío de resultados*/
+
+    .cajaResultados{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cajaResultados form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textos{
+        margin-bottom: 5px;
+        padding: 10px;
+        font-size: 15px;
+        border: none;
+        outline: none;
+        background: #9ab7d7;
+        color: #fff;
+        resize: none;
+        border-radius: 20px;
+    }
+
+    .cajaResultados form input::placeholder{
+        color: #fff;
+        font-style: italic;
+    }
+
+    .btnEnviar{
+        padding: 10px;
+        font-size: 15px;
+        border: none;
+        outline: none;
+        background: #215a98;
+        color: #fff;
+        resize: none;
+        border-radius: 20px;
+        transition: transform .2s;
+        display: block;
+        width: fit-content;
+        padding-bottom: 20px;
+    }
+
+    .btnEnviar:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .btnTrans{
+        background: transparent;
+        color: #fff;
+        cursor: none;
+        width: 0%;
+    }
+
+    /*Custom alert*/
+
+    .swal-modal {
+        background-color: #9ab7d7;
+        border: 3px solid #9ab7d7;
+        width: 70%;
+        margin-right: 15%;
+    }
+
+    .swal-button {
+        padding: 7px 19px;
+        border-radius: 20px;
+        background-color: #215a98;
+        font-size: 12px;
+        border: 1px solid #215a98;
+        text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
     }
 
 }
